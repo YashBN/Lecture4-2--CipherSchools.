@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+  cout<<"Give 2 floating point numbers as input";
+  float a,b;
+  cin>>a>>b;
+  if(a>0.01 || b>a) {
+    cout<<"The codition in if statement is correct";
+  }else {
+    cout<<"The condition is false"; 
+}
